@@ -1,0 +1,17 @@
+#HN{font-size: 45px; text-align: center; line-height: 50px; }
+h2{font-weight: bold;}
+#contentHN
+{
+    padding-right: 12%;
+    padding-left: 12%;
+    padding-top: 5%;
+    line-height: 35px;
+}
+#contentHN div
+{
+    padding-top: 3%;
+}
+#Gioi_thieu ul li
+{
+    padding: 10px;
+}

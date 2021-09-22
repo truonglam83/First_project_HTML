@@ -1,0 +1,237 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+header
+{
+  background-color: #afeeee;
+}
+
+.container
+ {
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;}
+
+.logo img{float:left;}
+
+a
+{text-decoration: none}
+.container ul li{
+  display: inline-block; 
+  padding:39px;
+  padding-top: 50px;
+  font-size:25px; 
+  font-family:raleway;
+}
+
+.container ul li:hover{
+  color:orange;
+}
+
+
+
+#blog
+{
+  text-align: center;
+}
+#blog td 
+{
+  width: 500px;
+}
+
+.w3-content
+{
+  padding-bottom: 40px;
+}
+
+#Mess
+{
+  border-style: solid;
+  border-color: black;
+  border-radius: 10%;
+}
+footer input
+{
+  background-color: rgb(201, 196, 186);
+  border-radius: 5px;
+}
+
+footer div 
+{
+  background-color: #708090;
+  color: white;
+  float: left;
+  padding-right: 70px;
+  padding-left: 65px;
+}
+ 
+
+*{box-sizing:border-box}
+/* thiết lập style cho slideshow container */
+ .slideshow-container {
+   max-width: 1000px;
+   position: relative;
+   margin: auto;
+ }
+/* ẩn hình ảnh cho phần tử slideshow */
+ .mySlides {
+   display: none;
+ }
+/* thiết kế nút mũi tên*/
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+/* thiết kế nút mũi tên next nằm phía bên phải */
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+/* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+ }
+/* Thiết lập style cho nội dung của mỗi phần tử slideshow */
+ .text {
+   color: #f2f2f2;
+   font-size: 15px;
+   padding: 8px 12px;
+   position: absolute;
+   bottom: 8px;
+   width: 100%;
+   text-align: center;
+ }
+/* Thiết lập style cho số hiển thị của phần tử */
+ .numbertext {
+   color: #f2f2f2;
+   font-size: 12px;
+   padding: 8px 12px;
+   position: absolute;
+   top: 0;
+ }
+/* thiết lập style  nút tròn điều khiển*/
+ .dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+.active, .dot:hover {
+   background-color: #717171;
+ }
+.icon a +a{
+	margin-left: 7px;
+	margin-right: 7px;
+}
+.booking-form{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.booking-form   h1{
+	color: #4BC3C3;
+	font-weight: 500;
+}
+.booking-form label{
+	font-weight: 300;
+	font-size: 16px;
+}
+.booking-form button{
+	background-color:#4BC3C3;
+	width: 70%;
+	color:white;
+}
+.contact-box-main {
+    padding: 70px 0px;
+}
+.contact-info-left {
+    padding: 20px;
+    background:url("../img/imageedit_1_9817227190.jpg") center;
+    background-size: cover;
+	
+}
+.contact-info-left h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.contact-info-left p {
+    margin-bottom: 15px;
+}
+.contact-info-left ul li {
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left:10px;
+}
+.contact-info-left ul li p {
+    font-size: 16px;
+    color: #222222;
+    font-weight: 300;
+    padding-right: 16px;
+    padding-left: 25px;
+    line-height: 24px;
+    position: relative;
+}
+.contact-info-left ul li p i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    padding-right: 6px;
+    color: #ea8025;
+}
+.contact-info-left ul li p a:hover {
+    color: #ea8025;
+}
+.contact-form-right {
+    padding: 20px;
+}
+.contact-form-right h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.contact-form-right p {
+    margin-bottom: 15px;
+}
+.contact-form-right .form-group .form-control::-moz-placeholder {
+    color: #999999;
+}
+.contact-form-right .form-group .form-control {
+    border-radius: 0px;
+    min-height: 40px;
+}
+.contact-form-right .form-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+.contact-form-right .form-group .form-control:focus {
+    border: 1px solid #ea8025;
+    box-shadow: none;
+}
+.submit-contact{
+	background-color:#4BC3C3;
+	font-weight: bold;
+}
+
+ 

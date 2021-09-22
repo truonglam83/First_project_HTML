@@ -1,0 +1,36 @@
+.login_btn
+{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+#login
+{
+    background-image:url(../img/flight_background.jpg);
+    background-size: 1600px 800px;
+    background-repeat: no-repeat;
+    height: 100%;
+    align-content: center;
+    
+}
+.card
+{
+    height: 700px;
+    text-align: center;
+    padding-top: 35px;
+    opacity: .8;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.card-header
+{
+    height: 100px;
+}
